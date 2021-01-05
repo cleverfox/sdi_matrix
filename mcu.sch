@@ -1,0 +1,349 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 9 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_ST_STM32F1:STM32F100C8Tx U901
+U 1 1 5FB9E1F2
+P 2800 3800
+F 0 "U901" H 2200 5250 50  0000 L CNN
+F 1 "STM32F100C8Tx" H 3100 5250 50  0000 L CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 2200 2400 50  0001 R CNN
+F 3 "" H 2800 3800 50  0001 C CNN
+	1    2800 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0902
+U 1 1 5FB9E379
+P 2600 5350
+F 0 "#PWR0902" H 2600 5100 50  0001 C CNN
+F 1 "GND" H 2600 5200 50  0000 C CNN
+F 2 "" H 2600 5350 50  0001 C CNN
+F 3 "" H 2600 5350 50  0001 C CNN
+	1    2600 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0903
+U 1 1 5FB9E80B
+P 2700 1750
+F 0 "#PWR0903" H 2700 1600 50  0001 C CNN
+F 1 "+3.3V" H 2700 1890 50  0000 C CNN
+F 2 "" H 2700 1750 50  0001 C CNN
+F 3 "" H 2700 1750 50  0001 C CNN
+	1    2700 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C901
+U 1 1 5FB9EA61
+P 3600 2900
+F 0 "C901" H 3610 2970 50  0000 L CNN
+F 1 "0.1uF" V 3500 2800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3600 2900 50  0001 C CNN
+F 3 "" H 3600 2900 50  0001 C CNN
+	1    3600 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C902
+U 1 1 5FB9EB80
+P 3800 2900
+F 0 "C902" H 3810 2970 50  0000 L CNN
+F 1 "0.1uF" V 3700 2800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3800 2900 50  0001 C CNN
+F 3 "" H 3800 2900 50  0001 C CNN
+	1    3800 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C903
+U 1 1 5FB9EBF5
+P 4000 2900
+F 0 "C903" H 4010 2970 50  0000 L CNN
+F 1 "0.1uF" V 3900 2800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4000 2900 50  0001 C CNN
+F 3 "" H 4000 2900 50  0001 C CNN
+	1    4000 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C904
+U 1 1 5FB9EC6E
+P 4200 2900
+F 0 "C904" H 4210 2970 50  0000 L CNN
+F 1 "0.1uF" V 4100 2800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4200 2900 50  0001 C CNN
+F 3 "" H 4200 2900 50  0001 C CNN
+	1    4200 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0904
+U 1 1 5FB9F310
+P 4000 3150
+F 0 "#PWR0904" H 4000 2900 50  0001 C CNN
+F 1 "GND" H 4000 3000 50  0000 C CNN
+F 2 "" H 4000 3150 50  0001 C CNN
+F 3 "" H 4000 3150 50  0001 C CNN
+	1    4000 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R901
+U 1 1 5FB9F5FA
+P 1800 2400
+F 0 "R901" H 1830 2420 50  0000 L CNN
+F 1 "R_Small" H 1830 2360 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1800 2400 50  0001 C CNN
+F 3 "" H 1800 2400 50  0001 C CNN
+	1    1800 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J902
+U 1 1 5FB9F999
+P 4450 5150
+F 0 "J902" H 4450 5350 50  0000 C CNN
+F 1 "SWD" H 4450 4850 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical" H 4450 5150 50  0001 C CNN
+F 3 "" H 4450 5150 50  0001 C CNN
+	1    4450 5150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0906
+U 1 1 5FB9FBCC
+P 4250 5250
+F 0 "#PWR0906" H 4250 5000 50  0001 C CNN
+F 1 "GND" H 4250 5100 50  0000 C CNN
+F 2 "" H 4250 5250 50  0001 C CNN
+F 3 "" H 4250 5250 50  0001 C CNN
+	1    4250 5250
+	1    0    0    -1  
+$EndComp
+Text Label 4250 5150 2    60   ~ 0
+JTCK
+Text Label 3400 5000 0    60   ~ 0
+JTCK
+Text Label 3400 4900 0    60   ~ 0
+JTMS
+Text Label 4250 5050 2    60   ~ 0
+JTMS
+Wire Wire Line
+	2600 5300 2700 5300
+Connection ~ 2800 5300
+Connection ~ 2700 5300
+Wire Wire Line
+	2600 5300 2600 5350
+Wire Wire Line
+	2700 2050 2700 2150
+Wire Wire Line
+	2700 2300 2800 2300
+Connection ~ 2800 2300
+Connection ~ 2900 2300
+Wire Wire Line
+	3600 2800 3800 2800
+Connection ~ 4000 2800
+Connection ~ 3800 2800
+Wire Wire Line
+	3600 3000 3800 3000
+Connection ~ 3800 3000
+Connection ~ 4000 3000
+Wire Wire Line
+	4000 3150 4000 3000
+Wire Wire Line
+	1800 2500 2100 2500
+Wire Wire Line
+	1800 2300 1800 2150
+Wire Wire Line
+	1800 2150 2700 2150
+Connection ~ 2700 2150
+Text Label 2100 4300 2    60   ~ 0
+SDA
+Text Label 2100 4200 2    60   ~ 0
+SCL
+Text Label 4075 3625 2    60   ~ 0
+SCL
+Text Label 4075 3775 2    60   ~ 0
+SDA
+$Comp
+L Device:R_Small R903
+U 1 1 5FBA3D5C
+P 4175 3625
+F 0 "R903" H 4205 3645 50  0000 L CNN
+F 1 "1k" H 4205 3585 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4175 3625 50  0001 C CNN
+F 3 "" H 4175 3625 50  0001 C CNN
+	1    4175 3625
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R904
+U 1 1 5FBA3E2C
+P 4175 3775
+F 0 "R904" H 4205 3795 50  0000 L CNN
+F 1 "1k" H 4205 3735 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4175 3775 50  0001 C CNN
+F 3 "" H 4175 3775 50  0001 C CNN
+	1    4175 3775
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4275 3625 4275 3775
+$Comp
+L Connector:Conn_01x04_Male J901
+U 1 1 5FBA460B
+P 4375 4325
+F 0 "J901" H 4375 4525 50  0000 C CNN
+F 1 "SWD" H 4375 4025 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical" H 4375 4325 50  0001 C CNN
+F 3 "" H 4375 4325 50  0001 C CNN
+	1    4375 4325
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0905
+U 1 1 5FBA46A4
+P 4175 4425
+F 0 "#PWR0905" H 4175 4175 50  0001 C CNN
+F 1 "GND" H 4175 4275 50  0000 C CNN
+F 2 "" H 4175 4425 50  0001 C CNN
+F 3 "" H 4175 4425 50  0001 C CNN
+	1    4175 4425
+	1    0    0    -1  
+$EndComp
+Text Label 4175 4325 2    60   ~ 0
+RX
+Text Label 4175 4225 2    60   ~ 0
+TX
+Text Label 3400 4500 0    60   ~ 0
+TX
+Text Label 3400 4600 0    60   ~ 0
+RX
+$Comp
+L Device:R_Small R902
+U 1 1 5FBA4E95
+P 2000 2700
+F 0 "R902" H 2030 2720 50  0000 L CNN
+F 1 "0" H 2030 2660 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2000 2700 50  0001 C CNN
+F 3 "" H 2000 2700 50  0001 C CNN
+	1    2000 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0901
+U 1 1 5FBA4F60
+P 1900 2700
+F 0 "#PWR0901" H 1900 2450 50  0001 C CNN
+F 1 "GND" H 1900 2550 50  0000 C CNN
+F 2 "" H 1900 2700 50  0001 C CNN
+F 3 "" H 1900 2700 50  0001 C CNN
+	1    1900 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2800 5300 2900 5300
+Wire Wire Line
+	2700 5300 2800 5300
+Wire Wire Line
+	2800 2300 2900 2300
+Wire Wire Line
+	2900 2300 3000 2300
+Wire Wire Line
+	4000 2800 4200 2800
+Wire Wire Line
+	3800 2800 4000 2800
+Wire Wire Line
+	3800 3000 4000 3000
+Wire Wire Line
+	4000 3000 4200 3000
+Wire Wire Line
+	2700 2150 2700 2300
+$Comp
+L Device:L L901
+U 1 1 5FD309A9
+P 2700 1900
+F 0 "L901" H 2753 1946 50  0000 L CNN
+F 1 "L" H 2753 1855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2700 1900 50  0001 C CNN
+F 3 "~" H 2700 1900 50  0001 C CNN
+	1    2700 1900
+	1    0    0    -1  
+$EndComp
+Text Label 2700 2150 0    50   ~ 0
+MCU_VCC
+Text Label 4000 2800 0    50   ~ 0
+MCU_VCC
+Text Label 4275 3625 0    50   ~ 0
+MCU_VCC
+Text Label 4250 4950 2    50   ~ 0
+MCU_VCC
+Text Label 4175 4125 2    50   ~ 0
+MCU_VCC
+Connection ~ 2600 5300
+Connection ~ 2700 2300
+Text HLabel 5225 3550 2    50   Output ~ 0
+SCL
+Text HLabel 5225 3675 2    50   BiDi ~ 0
+SDA
+Text HLabel 3400 3600 2    50   Input ~ 0
+INT
+Text Label 5225 3550 2    60   ~ 0
+SCL
+Text Label 5225 3675 2    60   ~ 0
+SDA
+$Comp
+L Connector:Conn_01x04_Male J903
+U 1 1 609636FE
+P 5100 5175
+F 0 "J903" H 5100 5375 50  0000 C CNN
+F 1 "I2C" H 5100 4875 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical" H 5100 5175 50  0001 C CNN
+F 3 "" H 5100 5175 50  0001 C CNN
+	1    5100 5175
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0159
+U 1 1 60963DA1
+P 4900 5275
+F 0 "#PWR0159" H 4900 5025 50  0001 C CNN
+F 1 "GND" H 4900 5125 50  0000 C CNN
+F 2 "" H 4900 5275 50  0001 C CNN
+F 3 "" H 4900 5275 50  0001 C CNN
+	1    4900 5275
+	1    0    0    -1  
+$EndComp
+Text Label 4900 5075 2    60   ~ 0
+SCL
+Text Label 4900 5175 2    60   ~ 0
+SDA
+Text Label 4900 4975 2    50   ~ 0
+MCU_VCC
+Text HLabel 2100 3200 0    50   Input ~ 0
+CD5
+Text HLabel 2100 3300 0    50   Input ~ 0
+CD6
+Text HLabel 2100 4400 0    50   Input ~ 0
+CD3
+Text HLabel 2100 4500 0    50   Input ~ 0
+CD4
+Text HLabel 2100 5000 0    50   Input ~ 0
+CD7
+Text HLabel 2100 5100 0    50   Input ~ 0
+CD8
+$EndSCHEMATC
